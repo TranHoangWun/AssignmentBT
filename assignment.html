@@ -1,0 +1,41 @@
+OCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Đăng Nhập</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+            background-color: #f4f4f4;
+        }
+        button {
+            padding: 12px 24px;
+            font-size: 18px;
+            color: white;
+            background-color: #20df50;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin: 5px; 
+        }
+        button:hover {
+            background-color: #d735b1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ung dung cua Toi</h1>     <button onclick="hienThongBao()">Đăng nhập</button>
+    <button onclick="hienThongBaoDangXuat()">Đăng xuất</button>     <script>
+        function hienThongBao() {
+            alert("Bạn đã nhấn nút Đăng nhập!");
+        }
+
+        function hienThongBaoDangXuat() { 
+            alert("Bạn đã nhấn nút Đăng xuất!");
+        }
+    </script>
+</body>
+</html>
