@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+OCTYPE html>
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
@@ -19,6 +20,7 @@
             border-radius: 8px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            margin: 5px; 
         }
         button:hover {
             background-color: #d735b1;
@@ -26,12 +28,14 @@
     </style>
 </head>
 <body>
-    <h1>Chào mừng bạn!</h1>
-    <button onclick="hienThongBao()">Đăng nhập</button>
-
-    <script>
+    <h1>Ung dung cua Toi</h1>     <button onclick="hienThongBao()">Đăng nhập</button>
+    <button onclick="hienThongBaoDangXuat()">Đăng xuất</button>     <script>
         function hienThongBao() {
             alert("Bạn đã nhấn nút Đăng nhập!");
+        }
+
+        function hienThongBaoDangXuat() { 
+            alert("Bạn đã nhấn nút Đăng xuất!");
         }
     </script>
 </body>
